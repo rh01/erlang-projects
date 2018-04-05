@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author Shine
+%%% @copyright (C) 2018, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 05. 四月 2018 10:48
+%%%-------------------------------------------------------------------
+{application, helloworld, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {helloworlf, []}},
+  {env, []}
+]}.
